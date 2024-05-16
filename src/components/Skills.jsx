@@ -4,6 +4,7 @@ import css from "../../public/css.png"
 import js from "../../public/js.webp"
 import node from "../../public/node.png"
 import react from "../../public/react.jpeg"
+import mongo from "../../public/mongo.png"
 
 const Portfolio = () => {
     const skills=[
@@ -32,6 +33,11 @@ const Portfolio = () => {
             id:5,
             image:react,
             name:"Reactjs",
+        },
+        {
+            id:6,
+            image:mongo,
+            name:"MongoDB",
         }
     ]
   return (
