@@ -24,7 +24,7 @@ const Home = () => {
                                 loop={true} />
                         </div>
                         <br />
-                        <p className='text-sm md:text-xl text-justify'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat aut eius eveniet nulla ex maiores debitis quidem, qui laudantium repellat atque minima corporis odio deleniti illum iste amet libero! Odio?</p>
+                        <p className='text-sm md:text-xl text-justify'> I'm currently on the lookout for new adventures in web development. Freshly graduated with a Masters degree in Computer Science (MCA), and having gained valuable, I come equipped with a strong skill set in HTML, CSS, JavaScript, and MERN Stack. My passion lies in crafting immersive user experiences and pushing the boundaries of web development innovation.</p>
                         <br />
                         <div className='flex flex-col md:flex-row items-center space-y-3 justify-between'>
                             <div className='space-y-3'>
@@ -39,7 +39,7 @@ const Home = () => {
                                         </a>
                                         </li>
                                     <li>
-                                        <a href="" target='_blank'>
+                                        <a href="https://www.instagram.com/gagandhyani/" target='_blank'>
                                         <FaInstagramSquare className='text-2xl cursor-pointer' /></a>
                                         </li>
                                 </ul>

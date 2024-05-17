@@ -9,9 +9,9 @@ const Footer = () => {
     <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-16'>
         <div className='flex flex-col justify-center items-center'>
         <div className='flex space-x-4'>
-            <FaFacebook size={24}/>
-            <FaLinkedin size={24}/>
-            <FaInstagram size={24}/>
+           <a href="https://www.facebook.com/gagan.dhyani/"><FaFacebook size={24}/></a>
+           <a href="https://www.linkedin.com/in/gagandh/"><FaLinkedin size={24}/></a> 
+            <a href="https://www.instagram.com/gagandhyani/"><FaInstagram size={24}/></a>
         </div>
         <div className='mt-6 border-t border-gray-700 pt-4 flex flex-col items-center'>
         <p className='text-sm'>&copy;All rights reserved.</p>

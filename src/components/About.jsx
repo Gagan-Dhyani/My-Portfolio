@@ -5,7 +5,7 @@ const About = () => {
 <>
 <div name="About" className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-16 '>
     <h1 className='text-3xl font-bold mb-5'>About</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quasi quis reiciendis laborum tenetur nobis libero quod impedit error incidunt commodi ducimus, illo a alias quo labore, provident blanditiis quam.</p>
+    {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quasi quis reiciendis laborum tenetur nobis libero quod impedit error incidunt commodi ducimus, illo a alias quo labore, provident blanditiis quam.</p> */}
 <br />
 <h1 className='text-purple-600 text-xl font-bold'>Education</h1>
 <div className='space-y-4'>
@@ -23,8 +23,8 @@ const About = () => {
 <span> Awarded with a certificate from Prayag Sangeet Samiti for Indian Classical Vocal Music</span>
 <br />
 <br />
-<h1 className='text-purple-600 text-xl font-bold'>My Goals</h1>
-<p> Awarded with a certificate from Prayag Sangeet Samiti for Indian Classical Vocal Music</p>
+{/* <h1 className='text-purple-600 text-xl font-bold'>My Goals</h1>
+<p> Awarded with a certificate from Prayag Sangeet Samiti for Indian Classical Vocal Music</p> */}
 
 </div>
 </>
