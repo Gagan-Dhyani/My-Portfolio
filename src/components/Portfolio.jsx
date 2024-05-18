@@ -8,13 +8,15 @@ const Portfolio = () => {
             id:1,
             image:book,
             name:"BookStore",
-            description:"This is a bookstore app built in mern stack"
+            description:"This is a simple bookstore app built in mern stack",
+            link:"https://github.com/Gagan-Dhyani/bookStore"
         },
         {
             id:2,
             image:spotify,
             name:"Spotify Clone",
-            description:"This is a spotify clone buil in html css js"
+            description:"This is a spotify clone built using html, css, JavaScript",
+            link:"https://github.com/Gagan-Dhyani/Spotify"
         }
     ]
   return (
@@ -25,7 +27,7 @@ const Portfolio = () => {
         <span className='font-semibold underline'>My Projects</span>
         <div className='grid grid-cols-1 md:grid-cols-4 gap-10 my-6'>
             {
-                projects.map(({id,name,image,description})=>(
+                projects.map(({id,name,image,description,link})=>(
                 <div key={id} className='md:w-[300px] md:h-[300px] border-[2px] rounded-lg cursor-pointer hover:scale-105 duration-300'>
                     <img src={image} className='p-1 w-[120px] h-[120px] rounded-full border-[2px]' alt="" />
                     <div>
@@ -33,7 +35,7 @@ const Portfolio = () => {
                 <p className='px-2 text-gray-700'>{description}</p>
                     </div>
                     <div className='flex justify-center items-center px-6 py-4'>
-                        <button className='bg-green-500 hover:bg-green-800 text-white px-2 py-2 rounded '>Source Code</button>
+                       <a href={link} target='_blank'> <button className='bg-green-500 hover:bg-green-800 text-white px-2 py-2 rounded '>Source Code</button></a>
                     </div>
                 </div>
 
